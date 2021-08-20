@@ -16,6 +16,7 @@ body {
 }
 
 .bold {
+  font-family: cursive;
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
@@ -158,23 +159,31 @@ body {
 
 .resume .resume_right .resume_name h1 {
   font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   text-transform: uppercase;
-  color: #003147;
-  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   font-weight: 600;
+  font-size: 64px;
 }
 
 .resume .resume_right .resume_name h3 {
   font-size: 20px;
   text-align: center;
-  color: #003147;
+  font-family: cursive;
 }
 
+.resume .resume_right .resume_name {
+  background-color: #003147;
+  color: #fff;
+  padding: 20px;
+  margin-left: -30px;
+}
 
 .resume .resume_right .bold {
   color: #003147;
+  text-align: center;
 }
 
 .resume .resume_right .resume_work ul,
